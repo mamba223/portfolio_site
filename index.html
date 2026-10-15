@@ -1,0 +1,845 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Systems and Software Engineering</title>
+  <meta name="description" content="Software engineer portfolio showcasing systems engineering, machine learning pipelines, and full-stack software development.">
+
+  <!-- Typography: IBM Plex Sans and IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="nav-container">
+      <a href="#" class="nav-brand">
+        <span class="brand-code">[YN]</span>
+        <span class="brand-title">ENGINEERING</span>
+      </a>
+
+      <nav class="site-nav">
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="site-container">
+        <div class="hero-status">
+          <span class="status-indicator"></span>
+          <span class="status-text">STATUS: CS STUDENT / OPEN TO INTERNSHIPS & ROLES</span>
+        </div>
+
+        <h1 class="hero-title">
+          Computer Science student building backend systems, distributed services, and ML platforms.
+        </h1>
+
+        <p class="hero-description">
+          Focused on systems engineering, robust APIs, and machine learning pipelines. Experienced in Python, TypeScript, vector search architectures, and modern web application development through academic coursework and practical projects.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-solid">Explore Projects</a>
+          <a href="#contact" class="btn btn-outline">Direct Contact</a>
+        </div>
+
+        <!-- Telemetry / Spec Strip (Not 3 icon boxes) -->
+        <div class="telemetry-strip" aria-label="Key engineering metrics">
+          <div class="telemetry-item">
+            <span class="telemetry-value">15</span>
+            <span class="telemetry-label">Projects Built</span>
+          </div>
+          <div class="telemetry-divider">/</div>
+          <div class="telemetry-item">
+            <span class="telemetry-value">22+</span>
+            <span class="telemetry-label">Technologies</span>
+          </div>
+          <div class="telemetry-divider">/</div>
+          <div class="telemetry-item">
+            <span class="telemetry-value">B.S. CS</span>
+            <span class="telemetry-label">Degree Candidate</span>
+          </div>
+          <div class="telemetry-divider">/</div>
+          <div class="telemetry-item">
+            <span class="telemetry-value">2026</span>
+            <span class="telemetry-label">Expected Graduation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="content-section" id="about">
+      <div class="site-container">
+        <div class="section-meta">
+          <span class="section-index">01</span>
+          <span class="section-tag">OVERVIEW</span>
+        </div>
+        <h2 class="section-heading">Systems and Technical Approach</h2>
+
+        <div class="about-layout">
+          <div class="about-main">
+            <p class="lead-text">
+              I am a Computer Science student focused on building robust backend infrastructure, high-throughput search systems, and practical machine learning applications.
+            </p>
+            <p class="body-text">
+              My engineering approach prioritizes measurable performance, explicit API contracts, and reproducible deployment. Rather than layering unnecessary dependencies, I aim to keep system architectures transparent and maintainable over long lifecycles.
+            </p>
+            <p class="body-text">
+              Recent initiatives include engineering ReelForge (an episodic AI video platform with asynchronous GPU rendering queues), developing Collabo (a local-first collaborative workspace using Yjs CRDTs and WebRTC), and deploying private voice AI runtimes and search engines.
+            </p>
+          </div>
+
+          <div class="about-sidebar">
+            <div class="profile-card">
+              <div class="profile-media-frame">
+                <!-- Replace src with your photo (e.g. assets/images/profile.jpg) -->
+                <img src="assets/images/profile-placeholder.svg" alt="Engineer profile photo" class="profile-media-img" loading="lazy">
+              </div>
+              <div class="profile-meta">
+                <div class="profile-status">
+                  <span class="status-dot"></span>
+                  <span class="profile-status-text">SYSTEMS & SOFTWARE</span>
+                </div>
+                <div class="profile-id">[IDENTITY // CS UNDERGRAD]</div>
+              </div>
+            </div>
+
+            <div class="spec-card">
+              <div class="spec-header">TECHNICAL PRINCIPLES</div>
+              <ul class="spec-list">
+                <li>
+                  <span class="spec-term">Architecture:</span>
+                  <span class="spec-desc">Decoupled services, explicit schemas, reproducible state</span>
+                </li>
+                <li>
+                  <span class="spec-term">Data Integrity:</span>
+                  <span class="spec-desc">Strict typing, schema migrations, automated validation</span>
+                </li>
+                <li>
+                  <span class="spec-term">Performance:</span>
+                  <span class="spec-desc">Sub-100ms API targets, efficient indexing, lean dependencies</span>
+                </li>
+                <li>
+                  <span class="spec-term">Tooling:</span>
+                  <span class="spec-desc">Containerized builds, CI/CD automated test suites</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="content-section alt-bg" id="projects">
+      <div class="site-container">
+        <div class="section-meta">
+          <span class="section-index">02</span>
+          <span class="section-tag">PORTFOLIO</span>
+        </div>
+        <h2 class="section-heading">Featured Engineering Projects</h2>
+        <p class="section-subheading">
+          Selected production applications, systems services, and distributed data tools.
+        </p>
+
+        <div class="projects-matrix">
+
+          <!-- Project 1: ReelForge AI Video Studio -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">AI VIDEO PIPELINE / FULL-STACK</span>
+              <span class="entry-id">PRJ-01</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/reelforge.png) -->
+              <img src="assets/images/prj-01-reelforge.jpg" alt="ReelForge project preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">ReelForge: Episodic AI Video Studio</h3>
+            <p class="entry-description">
+              Full-stack generative video production platform that decomposes long-form stories and scripts into structured, multi-scene shot lists. Features asynchronous GPU rendering workers on RunPod, programmatic camera motion controls, synchronized voiceover narration, and seamless client-side video concatenation.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">Next.js 15, TypeScript, Supabase, RunPod Serverless, Tailwind CSS, Stripe</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">LLM script director, camera movement controls, ElevenLabs/TTS voice sync, episodic player</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/reelforge" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+              <a href="http://localhost:3000" class="project-action" target="_blank" rel="noopener">
+                Local App <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Collabo Workspace -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">DISTRIBUTED SYSTEMS / CRDT</span>
+              <span class="entry-id">PRJ-02</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/collabo.png) -->
+              <img src="assets/images/prj-02-collabo.jpg" alt="Collabo project preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">Collabo: Local-First Office Suite</h3>
+            <p class="entry-description">
+              Production-grade collaborative engineering workspace powered by Yjs CRDT state replication. Features real-time multi-user document and slide editors, infinite spatial whiteboard, WebRTC peer-to-peer video and screen sharing, in-browser Python and JS execution via WebAssembly (Pyodide), and WebSocket sync across GCP Cloud Run and Redis Pub/Sub.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">React, TypeScript, Yjs CRDTs, WebRTC, IndexedDB, Pyodide WASM, GCP Cloud Run, Redis</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">Local-first offline persistence, conflict-free state merge, WebRTC P2P signaling, sandboxed code execution</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/collabo" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+              <a href="#" class="project-action">
+                Documentation <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Lumina Voice Assistant -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">SYSTEMS / RUNTIME</span>
+              <span class="entry-id">PRJ-03</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/lumina.png) -->
+              <img src="assets/images/prj-03-lumina.jpg" alt="Lumina project preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">Lumina: Native AI Voice Assistant</h3>
+            <p class="entry-description">
+              A native Windows voice assistant runtime featuring always-on wake-word detection, hardware-accelerated computer vision, OS automation hooks, sandboxed Python code execution, and persistent SQLite memory. Built with an offline-first audio processing pipeline.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">Python, Claude 3.5, faster-whisper, PyAudio, pywin32, OpenCV</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">Local wake-word via openwakeword, screen inspection, IDE macros, offline STT</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/lumina" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+              <a href="#" class="project-action">
+                Documentation <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: Private LLM Platform -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">ML INFRASTRUCTURE</span>
+              <span class="entry-id">PRJ-04</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/private-llm.png) -->
+              <img src="assets/images/prj-04-private-llm.jpg" alt="Private LLM Code Review Service preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">Private LLM Code Review Service</h3>
+            <p class="entry-description">
+              Self-hosted model serving and code review engine running Qwen2.5-Coder-32B on RunPod GPU instances. Listens to GitHub webhook payloads to perform automated differential code analysis, security auditing, and natural language to SQL query generation.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">Python, FastAPI, Qwen2.5-32B, RunPod, SQLAlchemy, GitHub API</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">Webhook ingestion, PR diff parsing, automated review comment bots, NL-to-SQL</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/llm-review-service" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5: Pulse Event Discovery -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">GEOSPATIAL PLATFORM</span>
+              <span class="entry-id">PRJ-05</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/pulse.png) -->
+              <img src="assets/images/prj-05-pulse.jpg" alt="Pulse Geospatial Event Discovery preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">Pulse: Geospatial Event Discovery</h3>
+            <p class="entry-description">
+              Location-aware event aggregation engine querying multi-kilometer regional radiuses with sub-second response times. Features organizer dashboard administration, geo-filtered feeds, and synchronized Meilisearch full-text search indexing.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">Next.js 15, NestJS, PostgreSQL, PostGIS, Meilisearch, Redis</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">Spatial distance queries, spatial bounding box filtering, Redis cache invalidation</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/pulse-events" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 6: Trackr Job Application Tracker -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">FULL-STACK / API & DATA</span>
+              <span class="entry-id">PRJ-06</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/trackr.png) -->
+              <img src="assets/images/prj-06-trackr.jpg" alt="Trackr Job Pipeline Analytics preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">Trackr: Job Pipeline Analytics</h3>
+            <p class="entry-description">
+              Full-stack career pipeline and application management system with token-authenticated RESTful APIs. Features interactive Kanban board stage workflows, multi-parameter query filtering, live status analytics, and a dual database tier built with PostgreSQL and automatic zero-configuration SQLite fallback.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">Python 3.11, Flask, SQLAlchemy, PostgreSQL, SQLite, JWT Auth, REST API</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">JWT token authentication, Kanban workflow orchestration, pipeline metric analytics, dynamic SQLite fallback</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/trackr" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 7: Swazi-Uber Ride Hailing -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">DISTRIBUTED WEB APP</span>
+              <span class="entry-id">PRJ-07</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/swazi-uber.png) -->
+              <img src="assets/images/prj-07-swazi-uber.jpg" alt="Swazi-Uber Transit Platform preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">Swazi-Uber: Real-Time Transit Platform</h3>
+            <p class="entry-description">
+              Full-stack dispatch and ride matching system featuring interactive map telemetry, algorithmic driver routing, multi-tier pricing calculators, and responsive driver terminal simulation with real-time state coordination.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">Next.js, React, TypeScript, Leaflet, Firebase Realtime DB, Zustand</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">Live vehicle coordinate polling, route spline rendering, driver status management</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/swazi-uber" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 8: Semantic Search Engine -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">RETRIEVAL & ML</span>
+              <span class="entry-id">PRJ-08</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/semantic-search.png) -->
+              <img src="assets/images/prj-08-semantic-search.jpg" alt="Hybrid Semantic Search Engine preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">Hybrid Semantic Search Engine</h3>
+            <p class="entry-description">
+              Two-stage hybrid retrieval service combining dense FAISS vector embeddings with BM25 lexical keyword matching and cross-encoder reranking. Handles multi-format document ingestion, token-aware sliding window chunking, and incremental hash deduplication.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">Python, FastAPI, FAISS, PyTorch, Transformers, SQLite</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">Reciprocal rank fusion, sliding-window chunking, SHA-256 change detection</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/semantic-search" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 9: Web Scraper Platform -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">DATA PIPELINE</span>
+              <span class="entry-id">PRJ-09</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/web-scraper.png) -->
+              <img src="assets/images/prj-09-web-scraper.jpg" alt="Distributed Web Scraping Service preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">Distributed Web Scraping Service</h3>
+            <p class="entry-description">
+              Asynchronous data ingestion engine with adapter-based site drivers, robust robots.txt rate-limiting compliance, link graph tracking, content deduplication, and automated export pipelines into vector search databases.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">Python, FastAPI, aiohttp, SQLite, BeautifulSoup4</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">Concurrent crawl queues, adapter architecture, domain backoff policies</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/web-scraper" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 10: SplitFare Expense Ledger -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">FINTECH / MOBILE & BACKEND</span>
+              <span class="entry-id">PRJ-10</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/split-fare.png) -->
+              <img src="assets/images/prj-10-splitfare.jpg" alt="SplitFare Shared Expense Ledger preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">SplitFare: Shared Expense Ledger</h3>
+            <p class="entry-description">
+              Multi-party group expense tracking and liability settlement engine paired with an Android mobile client. Implements debt graph simplification algorithms to resolve cross-member balances into minimal transaction paths with transactional integrity.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">Python, Django REST Framework, PostgreSQL, Android, SQLite</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">Debt simplification graph algorithms, relational transaction ledgers, group balance calculation, REST API</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/split-fare" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 11: Nexus Operations Dashboard -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">MONITORING INTERFACE</span>
+              <span class="entry-id">PRJ-11</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/nexus.png) -->
+              <img src="assets/images/prj-11-nexus.jpg" alt="Nexus Operations Dashboard preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">Nexus: Search and Ingestion Dashboard</h3>
+            <p class="entry-description">
+              Integrated operational frontend unifying the semantic search pipeline and scraper services. Provides real-time job log streaming, scrape worker management, search score inspection, and direct index management.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">HTML5, CSS3, JavaScript, REST API Integration</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">Dual-view workflow, live crawl telemetry, relevance score breakdown</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/nexus-dashboard" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 12: Weather Web App -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">WEB / GEOLOCATION & APIS</span>
+              <span class="entry-id">PRJ-12</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/weather.png) -->
+              <img src="assets/images/prj-12-weather.jpg" alt="Weather Forecast Dashboard preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">Weather: Global Forecast Dashboard</h3>
+            <p class="entry-description">
+              Real-time global weather and meteorological tracking web application powered by the Open-Meteo API. Features browser geolocation detection, international city autocomplete, 24-hour and 7-day hourly forecasts, comprehensive air quality metrics (US AQI with PM2.5, PM10, Ozone), UV index readings, and persistent city bookmarking via localStorage.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">HTML5, CSS3, JavaScript (ES6+), Open-Meteo REST API, LocalStorage</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">Browser geolocation, hourly and weekly weather models, air quality calculations, metric/imperial unit toggle</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/weather-app" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+              <a href="#" class="project-action">
+                Local App <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 13: NovaCalc Pro Calculator -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">DESKTOP APP / PYTHON GUI</span>
+              <span class="entry-id">PRJ-13</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/novacalc.png) -->
+              <img src="assets/images/prj-13-novacalc.jpg" alt="NovaCalc Pro Calculator preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">NovaCalc Pro: Desktop GUI Calculator</h3>
+            <p class="entry-description">
+              Native desktop mathematical calculator application built with Python. Features dual standard and scientific calculation modes with trigonometric and logarithmic functions, dedicated memory registers (MC, MR, M+, M-, MS), an interactive calculation tape history drawer, font autoscaling, and complete physical keyboard/numpad event bindings.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">Python 3, Tkinter GUI, Math Library, OS Clipboard Integration</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">Scientific expression parsing, memory register state machine, calculation tape drawer, keyboard shortcuts</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/calculator-app" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 14: CodeInterview Platform -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">REAL-TIME SYSTEMS / WEBRTC & DOCKER</span>
+              <span class="entry-id">PRJ-14</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/codeinterview.png) -->
+              <img src="assets/images/prj-14-codeinterview.svg" alt="CodeInterview Live Platform preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">CodeInterview: Live Technical Interview Platform</h3>
+            <p class="entry-description">
+              Production-grade technical interview environment combining a real-time collaborative code editor with remote cursor presence, peer-to-peer WebRTC audio/video and screen sharing, an isolated ephemeral Docker execution sandbox with disabled networking (--net=none), an interviewer rubric annotation layer, and automated post-session AI evaluation reports.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">Node.js, Express, WebSockets, WebRTC P2P, Docker, LLM Evaluation API, JavaScript</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">Operational transformation sync, WebRTC AV streaming, ephemeral container sandbox, automated AI interview evaluation</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/code-interview-platform" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+              <a href="#" class="project-action">
+                Documentation <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 15: Online Shop E-Commerce Storefront -->
+          <article class="project-entry">
+            <div class="entry-header">
+              <span class="entry-category">E-COMMERCE / FRONTEND ARCHITECTURE</span>
+              <span class="entry-id">PRJ-15</span>
+            </div>
+            <div class="project-media-frame">
+              <!-- Replace src with your project screenshot (e.g., assets/images/shop.png) -->
+              <img src="assets/images/prj-15-shop.svg" alt="Online Shop Storefront preview" class="project-media-img" loading="lazy">
+            </div>
+            <h3 class="entry-title">Online Shop: Modern Apparel & EDC Storefront</h3>
+            <p class="entry-description">
+              High-performance client-side e-commerce web application featuring debounced product search, multi-category navigation across apparel and gear, dynamic price sorting, interactive quick-view modals with variant selectors, and a persistent slide-out cart drawer with dynamic free-shipping progress indicators and validated checkout receipts.
+            </p>
+            <div class="entry-spec">
+              <div class="spec-row">
+                <span class="spec-key">Core Stack:</span>
+                <span class="spec-val">HTML5, CSS3, Vanilla JavaScript (ES6+), LocalStorage</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Capabilities:</span>
+                <span class="spec-val">State-driven cart drawer, debounced search & sort, dynamic shipping threshold meter, order receipt generation</span>
+              </div>
+            </div>
+            <div class="entry-actions">
+              <a href="https://github.com/yourusername/portfolio-shop" class="project-action" target="_blank" rel="noopener">
+                Source Code <span class="arrow">&nearr;</span>
+              </a>
+              <a href="#" class="project-action">
+                Local App <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="content-section" id="skills">
+      <div class="site-container">
+        <div class="section-meta">
+          <span class="section-index">03</span>
+          <span class="section-tag">CAPABILITIES</span>
+        </div>
+        <h2 class="section-heading">Technical Matrix and Tooling</h2>
+        <p class="section-subheading">
+          Languages, frameworks, and tools applied across computer science coursework, hackathons, and personal engineering projects.
+        </p>
+
+        <div class="skills-matrix">
+
+          <div class="matrix-column">
+            <div class="matrix-heading">LANGUAGES</div>
+            <ul class="matrix-list">
+              <li><span class="tech-name">Python</span><span class="tech-level">Proficient</span></li>
+              <li><span class="tech-name">TypeScript</span><span class="tech-level">Proficient</span></li>
+              <li><span class="tech-name">JavaScript (ES6+)</span><span class="tech-level">Proficient</span></li>
+              <li><span class="tech-name">SQL (PostgreSQL/SQLite)</span><span class="tech-level">Working Knowledge</span></li>
+              <li><span class="tech-name">C / C++</span><span class="tech-level">Coursework</span></li>
+              <li><span class="tech-name">Java</span><span class="tech-level">Coursework</span></li>
+            </ul>
+          </div>
+
+          <div class="matrix-column">
+            <div class="matrix-heading">BACKEND & WEB</div>
+            <ul class="matrix-list">
+              <li><span class="tech-name">Next.js 15 / React</span><span class="tech-level">Proficient</span></li>
+              <li><span class="tech-name">FastAPI & Flask</span><span class="tech-level">Working Knowledge</span></li>
+              <li><span class="tech-name">Node.js / Express</span><span class="tech-level">Working Knowledge</span></li>
+              <li><span class="tech-name">Supabase (Postgres & Auth)</span><span class="tech-level">Working Knowledge</span></li>
+              <li><span class="tech-name">Django REST Framework</span><span class="tech-level">Familiar</span></li>
+              <li><span class="tech-name">Yjs CRDTs & WebSockets</span><span class="tech-level">Familiar</span></li>
+            </ul>
+          </div>
+
+          <div class="matrix-column">
+            <div class="matrix-heading">AI & MACHINE LEARNING</div>
+            <ul class="matrix-list">
+              <li><span class="tech-name">LLM Pipelines & APIs</span><span class="tech-level">Project Experience</span></li>
+              <li><span class="tech-name">FAISS Vector Search</span><span class="tech-level">Project Experience</span></li>
+              <li><span class="tech-name">Video Diffusion Workflows</span><span class="tech-level">Project Experience</span></li>
+              <li><span class="tech-name">Speech Synthesis (Whisper)</span><span class="tech-level">Working Knowledge</span></li>
+              <li><span class="tech-name">PyTorch</span><span class="tech-level">Coursework & Labs</span></li>
+              <li><span class="tech-name">Computer Vision (OpenCV)</span><span class="tech-level">Familiar</span></li>
+            </ul>
+          </div>
+
+          <div class="matrix-column">
+            <div class="matrix-heading">INFRASTRUCTURE & DATA</div>
+            <ul class="matrix-list">
+              <li><span class="tech-name">Git & GitHub</span><span class="tech-level">Proficient</span></li>
+              <li><span class="tech-name">PostgreSQL / SQLite</span><span class="tech-level">Working Knowledge</span></li>
+              <li><span class="tech-name">Linux & Command Line</span><span class="tech-level">Working Knowledge</span></li>
+              <li><span class="tech-name">Docker / Containers</span><span class="tech-level">Working Knowledge</span></li>
+              <li><span class="tech-name">Redis & Pub/Sub</span><span class="tech-level">Familiar</span></li>
+              <li><span class="tech-name">WebRTC & Cloud GPUs</span><span class="tech-level">Familiar</span></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section class="content-section alt-bg" id="experience">
+      <div class="site-container">
+        <div class="section-meta">
+          <span class="section-index">04</span>
+          <span class="section-tag">HISTORY</span>
+        </div>
+        <h2 class="section-heading">Engineering Experience and Education</h2>
+
+        <div class="history-grid">
+
+          <!-- Experience Column -->
+          <div class="history-column">
+            <div class="history-group-title">EXPERIENCE & LEADERSHIP</div>
+
+            <div class="history-entry">
+              <div class="history-meta">
+                <span class="history-period">2024 to Present</span>
+                <span class="history-badge">INTERN</span>
+              </div>
+              <h3 class="history-title">Software Engineering Intern</h3>
+              <div class="history-org">Engineering Team / Tech Organization</div>
+              <p class="history-text">
+                Developing backend services, API endpoints, and model inference pipelines. Working with TypeScript, Python, and cloud container deployments while collaborating on peer code reviews.
+              </p>
+            </div>
+
+            <div class="history-entry">
+              <div class="history-meta">
+                <span class="history-period">2023 to 2024</span>
+                <span class="history-badge">PROJECTS</span>
+              </div>
+              <h3 class="history-title">Student Developer & Project Lead</h3>
+              <div class="history-org">Campus Innovation & Hackathons</div>
+              <p class="history-text">
+                Built full-stack web applications and data processing pipelines. Designed relational database schemas, automated testing workflows, and local-first collaboration prototypes.
+              </p>
+            </div>
+          </div>
+
+          <!-- Education Column -->
+          <div class="history-column">
+            <div class="history-group-title">ACADEMIC BACKGROUND</div>
+
+            <div class="history-entry">
+              <div class="history-meta">
+                <span class="history-period">2022 to 2026 (Expected)</span>
+                <span class="history-badge">UNDERGRAD</span>
+              </div>
+              <h3 class="history-title">Bachelor of Science in Computer Science</h3>
+              <div class="history-org">University Name, Location</div>
+              <p class="history-text">
+                Core Coursework: Data Structures & Algorithms, Systems Programming, Computer Networks, Database Management Systems, Operating Systems, Machine Learning Foundations.
+              </p>
+            </div>
+
+            <div class="cert-box">
+              <div class="cert-title">ACADEMIC & HACKATHON FOCUS</div>
+              <p class="cert-text">
+                Active in hackathons and student tech communities, focusing on systems engineering, neural vector search, and local-first software architectures.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="content-section" id="contact">
+      <div class="site-container">
+        <div class="section-meta">
+          <span class="section-index">05</span>
+          <span class="section-tag">CONTACT</span>
+        </div>
+        <h2 class="section-heading">Get in Touch</h2>
+        <p class="section-subheading">
+          Available for software engineering roles, distributed systems consulting, and technical discussion.
+        </p>
+
+        <div class="contact-card">
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-label">EMAIL ADDRESS:</span>
+              <div class="contact-value-group">
+                <span class="contact-value" id="email-text">your.email@example.com</span>
+                <button class="btn btn-small" id="copy-email-btn" aria-label="Copy email address">Copy</button>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">GITHUB REPOSITORIES:</span>
+              <a href="https://github.com/yourusername" class="contact-link" target="_blank" rel="noopener">
+                github.com/yourusername <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">PROFESSIONAL PROFILE:</span>
+              <a href="https://linkedin.com/in/yourprofile" class="contact-link" target="_blank" rel="noopener">
+                linkedin.com/in/yourprofile <span class="arrow">&nearr;</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-direct">
+            <a href="mailto:your.email@example.com" class="btn btn-solid btn-full">Send Direct Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="site-container footer-content">
+      <div class="footer-left">
+        <span class="footer-copy">&copy; 2025 Your Name. All rights reserved.</span>
+      </div>
+      <div class="footer-right">
+        <span class="footer-note">Structured with vanilla HTML, CSS, and JavaScript.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
