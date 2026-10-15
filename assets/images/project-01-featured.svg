@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-label="Conceptual diagram of the SPTC cloud report-management architecture">
+<rect width="720" height="900" fill="#102331"/>
+<g stroke="#223b4c" stroke-width="1"><path d="M0 60h720M0 120h720M0 180h720M0 240h720M0 300h720M0 360h720M0 420h720M0 480h720M0 540h720M0 600h720M0 660h720M0 720h720M0 780h720M0 840h720M60 0v900M120 0v900M180 0v900M240 0v900M300 0v900M360 0v900M420 0v900M480 0v900M540 0v900M600 0v900M660 0v900"/></g>
+<rect x="40" y="43" width="640" height="816" rx="13" fill="#142b3a" stroke="#507184" stroke-width="2"/>
+<text x="78" y="96" fill="#9bcfc5" font-family="IBM Plex Mono,monospace" font-size="17" letter-spacing="2">SYSTEM / ARCHITECTURE</text>
+<line x1="78" y1="117" x2="642" y2="117" stroke="#426072" stroke-width="1"/>
+<text x="78" y="161" fill="#e5f0f3" font-family="Arial,sans-serif" font-weight="600" font-size="35">Cloud report platform</text>
+<text x="78" y="199" fill="#90afbe" font-family="monospace" font-size="15">DOCUMENT LIFECYCLE / REVIEW WORKFLOW</text>
+<rect x="165" y="256" width="390" height="86" rx="10" fill="#254456" stroke="#9bcfc5" stroke-width="2"/>
+<text x="360" y="291" fill="#8fb1c2" text-anchor="middle" font-family="monospace" font-size="15" letter-spacing="2">01 / CLIENT</text><text x="360" y="321" fill="#ecf2f5" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="23">Secure submissions</text>
+<path d="M360 342v47" fill="none" stroke="#83b8b3" stroke-width="3"/><path d="M352 379l8 10 8-10" stroke="#83b8b3" stroke-width="3" fill="none"/>
+<rect x="165" y="392" width="390" height="86" rx="10" fill="#254456" stroke="#7098ac" stroke-width="2"/>
+<text x="360" y="428" fill="#91b1c5" text-anchor="middle" font-family="monospace" font-size="15" letter-spacing="2">02 / SERVICE</text><text x="360" y="458" fill="#ecf2f5" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="23">Django API + PostgreSQL</text>
+<path d="M360 478v44" fill="none" stroke="#83b8b3" stroke-width="3"/><path d="M352 512l8 10 8-10" stroke="#83b8b3" stroke-width="3" fill="none"/>
+<rect x="82" y="524" width="254" height="119" rx="10" fill="#1d3c4e" stroke="#668fa5" stroke-width="2"/>
+<text x="209" y="556" fill="#90b9c6" text-anchor="middle" font-family="monospace" font-size="14">03 / STORAGE</text><text x="209" y="590" fill="#eef4f6" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="600">Cloud Storage</text><text x="209" y="615" fill="#b4c8d2" text-anchor="middle" font-family="sans-serif" font-size="15">Signed uploads</text>
+<rect x="384" y="524" width="254" height="119" rx="10" fill="#1d3c4e" stroke="#668fa5" stroke-width="2"/>
+<text x="511" y="556" fill="#90b9c6" text-anchor="middle" font-family="monospace" font-size="14">04 / PROCESS</text><text x="511" y="590" fill="#eef4f6" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="600">AI review</text><text x="511" y="615" fill="#b4c8d2" text-anchor="middle" font-family="sans-serif" font-size="15">Async workers</text>
+<line x1="209" y1="643" x2="209" y2="685" stroke="#81b1b5" stroke-width="3"/><line x1="511" y1="643" x2="511" y2="685" stroke="#81b1b5" stroke-width="3"/><line x1="209" y1="685" x2="511" y2="685" stroke="#81b1b5" stroke-width="3"/><line x1="360" y1="685" x2="360" y2="710" stroke="#81b1b5" stroke-width="3"/>
+<rect x="165" y="712" width="390" height="70" rx="9" fill="#2c4e5e" stroke="#91c3b9" stroke-width="2"/>
+<text x="360" y="754" fill="#e4f1f1" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="600">Approvals + audit trail</text>
+<text x="78" y="830" fill="#84a5b7" font-family="monospace" font-size="14" letter-spacing="2">ENGINEERING / PORTFOLIO 01</text>
+</svg>
